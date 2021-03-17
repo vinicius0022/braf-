@@ -15,32 +15,32 @@ body {
     padding: 20px 0;
 }
 
-.menu .menu-container {
+.menu-container {
     max-width: 960px;
     margin: 0 auto; /*ou margin left e right auto*/
 }
 
-.menu .menu-container::after, .menu .menu-container::before {
+.menu-container::after, .menu-container::before {
     content: '';
     display: table;
     clear: both;
 }
 
-.menu .menu-container .menu-logo {
+.menu-logo {
     display: block;
     float: left;
     margin-left: 10px;
 }
-.menu .menu-container .menu-nav {
+.menu-nav {
     float: right;
     margin-right: 10px;
 }
 
-.menu .menu-container .menu-nav li {
+.menu-nav li {
     display: inline-block;
 }
 
-.menu .menu-container .menu-nav a {
+.menu-nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -82,12 +82,12 @@ body {
     padding: 60px 0;
 }
 
-.sobre .sobre-container {
+.sobre-container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.sobre .sobre-container::after, .sobre .sobre-container::before {
+.sobre-container::after, .sobre-container::before {
     content: '';
     display: table;
     clear: both;
@@ -99,18 +99,18 @@ body {
     margin-bottom: 60px;
 }
 
-.sobre .sobre-container .sobre-item {
+.sobre-item {
     width: 460px;
     float: left;
     margin: 0 10px;
 }
 
-.sobre .sobre-container .sobre-item img {
+.sobre-item img {
     display: block;
     max-width: 100%;
 }
 
-.sobre .sobre-container .sobre-item  h3 {
+.sobre-item  h3 {
     position: relative;
     line-height: 1em;
     font-size: 2.25em;
@@ -142,30 +142,30 @@ body {
     border-bottom: 3px solid #d6d3c8;
 }
 
-.produtos .produtos-container {
+.produtos-container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.produtos .produtos-container::after, .produtos .produtos-container::before {
+.produtos-container::after, .produtos-container::before {
     content: '';
     display: table;
     clear: both;
 }
 
-.produtos .produtos-container .produtos-item {
+.produtos-item {
     width: 300px;
     float: left;
     margin: 0 10px 20px 10px;
 }
 
-.produtos .produtos-container .produtos-item h2 {
+.produtos-item h2 {
     text-align: center;
     font-size: 2.25em;
     margin-bottom: 20px;
 }
 
-.produtos .produtos-container .produtos-item h2::before {
+.produtos-item h2::before {
     content: '';
     display: block;
     width: 100px;
@@ -177,24 +177,24 @@ body {
     box-shadow: 0 0 0 10px currentColor;
 }
 
-.produtos .produtos-container .produtos-item h2.produtos-paulista::before {
+.produtos-item h2.produtos-paulista::before {
     color: #492901;
 }
 
-.produtos .produtos-container .produtos-item h2.produtos-carioca::before {
+.produtos-item h2.produtos-carioca::before {
     color: #c17139;
 }
 
-.produtos .produtos-container .produtos-item h2.produtos-mineiro::before {
+.produtos-item h2.produtos-mineiro::before {
     color: #d7a54d;
 }
 
-.produtos .produtos-container .produtos-item p {
+.produtos-item p {
     font-size: 0.875em;
     line-height: 1.4em;
 }
 
-.produtos .produtos-btn {
+.produtos-btn {
     width: 180px;
     border: 3px solid #255252;
     color: #252525;
@@ -208,7 +208,64 @@ body {
     margin: 20px auto 0 auto;
 }
 
-.produtos .produtos-btn:hover {
+.produtos-btn:hover {
+    border: 3px solid rgb(201, 175, 61);
+    color: rgb(201, 175, 61);
+}
+
+/* Locais */
+.locais {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.locais-item {
+    clear: both;
+}
+
+.locais-item::after, .locais-item::before {
+    content: '';
+    clear: both;
+    display: table;
+    margin: 60px auto;
+}
+
+.locais-item img {
+    width: 460px;
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+
+.locais-item > div {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.locais-item h2 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.locais-item p {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    max-width: 320px;
+    margin-bottom: 40px;
+}
+
+.locais-item a {
+    font-size: 1.125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #252525;
+    border: 3px solid;
+    padding: 10px 20px;
+}
+
+.locais-item a:hover {
     border: 3px solid rgb(201, 175, 61);
     color: rgb(201, 175, 61);
 }
