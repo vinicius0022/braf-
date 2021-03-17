@@ -75,3 +75,60 @@ body {
     font-style: italic;
     font-size: 1.125em;
 }
+
+/* Sobre */
+
+.sobre {
+    padding: 60px 0;
+}
+
+.sobre .sobre-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sobre .sobre-container::after, .sobre .sobre-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre .sobre-container .sobre-item {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.sobre .sobre-container .sobre-item img {
+    display: block;
+    max-width: 100%;
+}
+
+.sobre .sobre-container .sobre-item  h3 {
+    position: relative;
+    line-height: 1em;
+    font-size: 2.25em;
+    background: #252525;
+    color: #fff;
+    width: 220px;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -25px;
+}
+
+.sobre > p {
+    font-style: italic;
+    font-size: 1.125em;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
