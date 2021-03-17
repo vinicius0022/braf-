@@ -1,0 +1,44 @@
+/* Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #252525;
+}
+
+/* Menu */
+.menu {
+    background: #252525;
+    padding: 20px 0;
+}
+
+.menu .menu-container {
+    max-width: 960px;
+    margin: 0 auto; /*ou margin left e right auto*/
+}
+
+.menu .menu-container::after, .menu .menu-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu .menu-container .menu-logo {
+    display: block;
+    float: left;
+}
+.menu .menu-container .menu-nav {
+    float: right;
+}
+
+.menu .menu-container .menu-nav li {
+    display: inline-block;
+}
+
+.menu .menu-container .menu-nav a {
+    display: block;
+    padding: 10px;
+}
