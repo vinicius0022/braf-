@@ -1,0 +1,20 @@
+@media only screen and (max-width: 739px) {
+    .menu-nav ul {
+        float: none;
+    }
+
+    .menu-nav ul li a {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 8px;
+    }
+
+    .intro {
+        padding: 60px 0;
+    }
+
+    .footer img {
+        float: none;
+        margin-top: 20px;
+    }
+}
