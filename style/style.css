@@ -29,9 +29,11 @@ body {
 .menu .menu-container .menu-logo {
     display: block;
     float: left;
+    margin-left: 10px;
 }
 .menu .menu-container .menu-nav {
     float: right;
+    margin-right: 10px;
 }
 
 .menu .menu-container .menu-nav li {
@@ -41,4 +43,7 @@ body {
 .menu .menu-container .menu-nav a {
     display: block;
     padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125em;
 }
